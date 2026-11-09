@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 945a04d2858fbbc49bff07c1724f276f, type: 3}
+  m_Name: WeaponList
+  m_EditorClassIdentifier: Assembly-CSharp::WeaponData
+  weapons:
+  - name: Arco&Flecha
+    sprite: {fileID: 21300000, guid: bf8a92b36ada5384e83d8207840decbe, type: 3}
+    iconScale: 0
+    iconOffset: {x: 0, y: 0}
+    iconRotation: -97.8
+    prefab3D: {fileID: 0}
+    viewRotationOffset: {x: 0, y: 0, z: 0}
+    viewScale: 0
+  - name: Pistola
+    sprite: {fileID: 21300000, guid: 17739f7ead19d374b8cc11766fe27db2, type: 3}
+    iconScale: 0.98
+    iconOffset: {x: -6.58, y: 0}
+    iconRotation: -16.88
+    prefab3D: {fileID: 0}
+    viewRotationOffset: {x: 0, y: 0, z: 0}
+    viewScale: 0
+  - name: Punhal
+    sprite: {fileID: 21300000, guid: f2b828d33f7c9034a97d5894f3967f37, type: 3}
+    iconScale: 0
+    iconOffset: {x: -8.85, y: 0}
+    iconRotation: 13.6
+    prefab3D: {fileID: 0}
+    viewRotationOffset: {x: 0, y: 0, z: 0}
+    viewScale: 0
+  - name: Foice
+    sprite: {fileID: 21300000, guid: d8a142cceaed37b4bbb3384ac26ce4ea, type: 3}
+    iconScale: 0.79
+    iconOffset: {x: -9.62, y: 21.7}
+    iconRotation: 7.39
+    prefab3D: {fileID: 0}
+    viewRotationOffset: {x: 0, y: 0, z: 0}
+    viewScale: 0
+  - name: Adaga
+    sprite: {fileID: 21300000, guid: a7fd84ad97c76814981f4f27d19b45bc, type: 3}
+    iconScale: 0
+    iconOffset: {x: 12.39, y: -7.27}
+    iconRotation: 36.93
+    prefab3D: {fileID: 0}
+    viewRotationOffset: {x: 0, y: 0, z: 0}
+    viewScale: 0
